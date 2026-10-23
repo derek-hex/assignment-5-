@@ -1,0 +1,11 @@
+# The Python environment: rebuild it from requirements.txt, never commit it
+.venv/
+
+# FineVideo tables (HuggingFaceFV/finevideo, gated): kept local, never pushed to this public repo
+data/
+
+# Jupyter's autosaves
+.ipynb_checkpoints/
+
+# The CSV-building script: kept local, not part of the assignment
+prep/
