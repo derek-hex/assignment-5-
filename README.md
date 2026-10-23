@@ -17,3 +17,9 @@ for each video it contained all the original metadata associated with that video
 These videos were also split into AI derived and generated categories 
 
 The 2nd csv I need to disclaim I had claude help parse through the videos.csv above and chunk the transcript itself into percentage based chunks. I didn't have enough time to figure out how to setup a mapped time-code -> transcript dataset into a csv...so this 2nd csv I used in the assignment is a extration of the overall transcript/videos dataset. It is 10% of the overall dataset with the transcript chunked into 10% chunks, this way it would be easier for me to process and find out about how people tend to organize and structure their videos. In the future would love to figure out that mapping thing....
+
+But either way, this transcript_tenths csv contains a smaller slice of the original videos.csv dataset
+
+containing the same video ID and associated metadata that way it would be simple to merge/group them together later.
+
+
